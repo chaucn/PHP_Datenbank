@@ -4,9 +4,6 @@ $pdo = new PDO('mysql:host=localhost;dbname=login', 'root', '');
 if(!isset($_COOKIE['olli'])) {
     die('Bitte zuerst <a href="loginsite.php">einloggen</a>');
 }
- 
-//Abfrage der Nutzer ID vom Login
-//$userid = $_COOKIE['olli'];
 ?>
 
 <!DOCTYPE html>

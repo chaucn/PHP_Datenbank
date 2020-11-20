@@ -19,7 +19,6 @@ if(isset($_GET['login'])) {
         die('Login erfolgreich. Weiter zu <a href="koordinatorentool.php">internen Bereich</a>');
     } else {
         $errorMessage = "E-Mail oder Passwort war ungültig<br>";
-    }
-    
+    }   
 }
 ?>
